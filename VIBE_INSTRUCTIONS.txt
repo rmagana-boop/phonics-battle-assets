@@ -1,0 +1,1 @@
+Use asset-manifest.json as the authoritative asset map. Load individual assets by their raw GitHub URL. Do not substitute emojis, placeholder icons, or generic art. For hints, map the current full word to the matching assets/hints/hint_<word>.jpg. For attacks, select an FX asset matching the player's ninja or magic style.
