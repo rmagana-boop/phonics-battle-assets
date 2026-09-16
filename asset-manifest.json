@@ -1,0 +1,820 @@
+{
+  "version": "1.0.0",
+  "baseUrl": "https://raw.githubusercontent.com/OWNER/REPO/main/assets/",
+  "assets": {
+    "heroes": {
+      "ninja_red": {
+        "file": "heroes/ninja/hero_ninja_red.png",
+        "style": "ninja",
+        "color": "red"
+      },
+      "ninja_blue": {
+        "file": "heroes/ninja/hero_ninja_blue.png",
+        "style": "ninja",
+        "color": "blue"
+      },
+      "ninja_gold": {
+        "file": "heroes/ninja/hero_ninja_gold.png",
+        "style": "ninja",
+        "color": "gold"
+      },
+      "ninja_green": {
+        "file": "heroes/ninja/hero_ninja_green.png",
+        "style": "ninja",
+        "color": "green"
+      },
+      "magic_blue": {
+        "file": "heroes/magic/hero_magic_blue.png",
+        "style": "magic",
+        "color": "blue"
+      },
+      "magic_purple": {
+        "file": "heroes/magic/hero_magic_purple.png",
+        "style": "magic",
+        "color": "purple"
+      },
+      "magic_gold": {
+        "file": "heroes/magic/hero_magic_gold.png",
+        "style": "magic",
+        "color": "gold"
+      },
+      "magic_green": {
+        "file": "heroes/magic/hero_magic_green.png",
+        "style": "magic",
+        "color": "green"
+      }
+    },
+    "bosses": {
+      "ninja_shadow_warlord": {
+        "file": "bosses/ninja/boss_ninja_shadow_warlord.png",
+        "style": "ninja"
+      },
+      "ninja_serpent_brute": {
+        "file": "bosses/ninja/boss_ninja_serpent_brute.png",
+        "style": "ninja"
+      },
+      "ninja_storm_ninja": {
+        "file": "bosses/ninja/boss_ninja_storm_ninja.png",
+        "style": "ninja"
+      },
+      "magic_dark_spellmaster": {
+        "file": "bosses/magic/boss_magic_dark_spellmaster.png",
+        "style": "magic"
+      },
+      "magic_crystal_golem": {
+        "file": "bosses/magic/boss_magic_crystal_golem.png",
+        "style": "magic"
+      },
+      "magic_thorn_sorceress": {
+        "file": "bosses/magic/boss_magic_thorn_sorceress.png",
+        "style": "magic"
+      }
+    },
+    "backgrounds": {
+      "ninja_bamboo": {
+        "file": "backgrounds/gameplay/bg_ninja_bamboo.jpg",
+        "type": "gameplay"
+      },
+      "ninja_rooftop": {
+        "file": "backgrounds/gameplay/bg_ninja_rooftop.jpg",
+        "type": "gameplay"
+      },
+      "magic_courtyard": {
+        "file": "backgrounds/gameplay/bg_magic_courtyard.jpg",
+        "type": "gameplay"
+      },
+      "magic_library": {
+        "file": "backgrounds/gameplay/bg_magic_library.jpg",
+        "type": "gameplay"
+      },
+      "ninja_fortress": {
+        "file": "backgrounds/boss/bg_ninja_fortress.jpg",
+        "type": "boss"
+      },
+      "shadow_throne": {
+        "file": "backgrounds/boss/bg_shadow_throne.jpg",
+        "type": "boss"
+      },
+      "crystal_chamber": {
+        "file": "backgrounds/boss/bg_crystal_chamber.jpg",
+        "type": "boss"
+      },
+      "portal_arena": {
+        "file": "backgrounds/boss/bg_portal_arena.jpg",
+        "type": "boss"
+      }
+    },
+    "hints": {
+      "cat": {
+        "file": "hints/hint_cat.jpg",
+        "word": "CAT",
+        "firstLetter": "C",
+        "ending": "AT"
+      },
+      "bat": {
+        "file": "hints/hint_bat.jpg",
+        "word": "BAT",
+        "firstLetter": "B",
+        "ending": "AT"
+      },
+      "hat": {
+        "file": "hints/hint_hat.jpg",
+        "word": "HAT",
+        "firstLetter": "H",
+        "ending": "AT"
+      },
+      "mat": {
+        "file": "hints/hint_mat.jpg",
+        "word": "MAT",
+        "firstLetter": "M",
+        "ending": "AT"
+      },
+      "rat": {
+        "file": "hints/hint_rat.jpg",
+        "word": "RAT",
+        "firstLetter": "R",
+        "ending": "AT"
+      },
+      "cap": {
+        "file": "hints/hint_cap.jpg",
+        "word": "CAP",
+        "firstLetter": "C",
+        "ending": "AP"
+      },
+      "map": {
+        "file": "hints/hint_map.jpg",
+        "word": "MAP",
+        "firstLetter": "M",
+        "ending": "AP"
+      },
+      "nap": {
+        "file": "hints/hint_nap.jpg",
+        "word": "NAP",
+        "firstLetter": "N",
+        "ending": "AP"
+      },
+      "tap": {
+        "file": "hints/hint_tap.jpg",
+        "word": "TAP",
+        "firstLetter": "T",
+        "ending": "AP"
+      },
+      "lap": {
+        "file": "hints/hint_lap.jpg",
+        "word": "LAP",
+        "firstLetter": "L",
+        "ending": "AP"
+      },
+      "can": {
+        "file": "hints/hint_can.jpg",
+        "word": "CAN",
+        "firstLetter": "C",
+        "ending": "AN"
+      },
+      "fan": {
+        "file": "hints/hint_fan.jpg",
+        "word": "FAN",
+        "firstLetter": "F",
+        "ending": "AN"
+      },
+      "man": {
+        "file": "hints/hint_man.jpg",
+        "word": "MAN",
+        "firstLetter": "M",
+        "ending": "AN"
+      },
+      "pan": {
+        "file": "hints/hint_pan.jpg",
+        "word": "PAN",
+        "firstLetter": "P",
+        "ending": "AN"
+      },
+      "van": {
+        "file": "hints/hint_van.jpg",
+        "word": "VAN",
+        "firstLetter": "V",
+        "ending": "AN"
+      },
+      "dog": {
+        "file": "hints/hint_dog.jpg",
+        "word": "DOG",
+        "firstLetter": "D",
+        "ending": "OG"
+      },
+      "fog": {
+        "file": "hints/hint_fog.jpg",
+        "word": "FOG",
+        "firstLetter": "F",
+        "ending": "OG"
+      },
+      "log": {
+        "file": "hints/hint_log.jpg",
+        "word": "LOG",
+        "firstLetter": "L",
+        "ending": "OG"
+      },
+      "hog": {
+        "file": "hints/hint_hog.jpg",
+        "word": "HOG",
+        "firstLetter": "H",
+        "ending": "OG"
+      },
+      "cog": {
+        "file": "hints/hint_cog.jpg",
+        "word": "COG",
+        "firstLetter": "C",
+        "ending": "OG"
+      },
+      "fin": {
+        "file": "hints/hint_fin.jpg",
+        "word": "FIN",
+        "firstLetter": "F",
+        "ending": "IN"
+      },
+      "pin": {
+        "file": "hints/hint_pin.jpg",
+        "word": "PIN",
+        "firstLetter": "P",
+        "ending": "IN"
+      },
+      "win": {
+        "file": "hints/hint_win.jpg",
+        "word": "WIN",
+        "firstLetter": "W",
+        "ending": "IN"
+      },
+      "bin": {
+        "file": "hints/hint_bin.jpg",
+        "word": "BIN",
+        "firstLetter": "B",
+        "ending": "IN"
+      },
+      "tin": {
+        "file": "hints/hint_tin.jpg",
+        "word": "TIN",
+        "firstLetter": "T",
+        "ending": "IN"
+      },
+      "sit": {
+        "file": "hints/hint_sit.jpg",
+        "word": "SIT",
+        "firstLetter": "S",
+        "ending": "IT"
+      },
+      "hit": {
+        "file": "hints/hint_hit.jpg",
+        "word": "HIT",
+        "firstLetter": "H",
+        "ending": "IT"
+      },
+      "fit": {
+        "file": "hints/hint_fit.jpg",
+        "word": "FIT",
+        "firstLetter": "F",
+        "ending": "IT"
+      },
+      "pit": {
+        "file": "hints/hint_pit.jpg",
+        "word": "PIT",
+        "firstLetter": "P",
+        "ending": "IT"
+      },
+      "kit": {
+        "file": "hints/hint_kit.jpg",
+        "word": "KIT",
+        "firstLetter": "K",
+        "ending": "IT"
+      },
+      "hop": {
+        "file": "hints/hint_hop.jpg",
+        "word": "HOP",
+        "firstLetter": "H",
+        "ending": "OP"
+      },
+      "mop": {
+        "file": "hints/hint_mop.jpg",
+        "word": "MOP",
+        "firstLetter": "M",
+        "ending": "OP"
+      },
+      "pop": {
+        "file": "hints/hint_pop.jpg",
+        "word": "POP",
+        "firstLetter": "P",
+        "ending": "OP"
+      },
+      "top": {
+        "file": "hints/hint_top.jpg",
+        "word": "TOP",
+        "firstLetter": "T",
+        "ending": "OP"
+      },
+      "cop": {
+        "file": "hints/hint_cop.jpg",
+        "word": "COP",
+        "firstLetter": "C",
+        "ending": "OP"
+      },
+      "sun": {
+        "file": "hints/hint_sun.jpg",
+        "word": "SUN",
+        "firstLetter": "S",
+        "ending": "UN"
+      },
+      "bun": {
+        "file": "hints/hint_bun.jpg",
+        "word": "BUN",
+        "firstLetter": "B",
+        "ending": "UN"
+      },
+      "run": {
+        "file": "hints/hint_run.jpg",
+        "word": "RUN",
+        "firstLetter": "R",
+        "ending": "UN"
+      },
+      "fun": {
+        "file": "hints/hint_fun.jpg",
+        "word": "FUN",
+        "firstLetter": "F",
+        "ending": "UN"
+      },
+      "nun": {
+        "file": "hints/hint_nun.jpg",
+        "word": "NUN",
+        "firstLetter": "N",
+        "ending": "UN"
+      }
+    },
+    "fx": {
+      "ninja_slash_red": {
+        "file": "fx/ninja/slash_red.png",
+        "style": "ninja",
+        "effect": "slash",
+        "color": "red"
+      },
+      "ninja_arc_red": {
+        "file": "fx/ninja/arc_red.png",
+        "style": "ninja",
+        "effect": "arc",
+        "color": "red"
+      },
+      "ninja_slash_blue": {
+        "file": "fx/ninja/slash_blue.png",
+        "style": "ninja",
+        "effect": "slash",
+        "color": "blue"
+      },
+      "ninja_arc_blue": {
+        "file": "fx/ninja/arc_blue.png",
+        "style": "ninja",
+        "effect": "arc",
+        "color": "blue"
+      },
+      "ninja_slash_gold": {
+        "file": "fx/ninja/slash_gold.png",
+        "style": "ninja",
+        "effect": "slash",
+        "color": "gold"
+      },
+      "ninja_arc_gold": {
+        "file": "fx/ninja/arc_gold.png",
+        "style": "ninja",
+        "effect": "arc",
+        "color": "gold"
+      },
+      "ninja_slash_green": {
+        "file": "fx/ninja/slash_green.png",
+        "style": "ninja",
+        "effect": "slash",
+        "color": "green"
+      },
+      "ninja_arc_green": {
+        "file": "fx/ninja/arc_green.png",
+        "style": "ninja",
+        "effect": "arc",
+        "color": "green"
+      },
+      "ninja_impact_red": {
+        "file": "fx/ninja/impact_red.png",
+        "style": "ninja",
+        "effect": "impact",
+        "color": "red"
+      },
+      "ninja_impact_blue": {
+        "file": "fx/ninja/impact_blue.png",
+        "style": "ninja",
+        "effect": "impact",
+        "color": "blue"
+      },
+      "ninja_impact_gold": {
+        "file": "fx/ninja/impact_gold.png",
+        "style": "ninja",
+        "effect": "impact",
+        "color": "gold"
+      },
+      "ninja_impact_green": {
+        "file": "fx/ninja/impact_green.png",
+        "style": "ninja",
+        "effect": "impact",
+        "color": "green"
+      },
+      "ninja_smoke_red": {
+        "file": "fx/ninja/smoke_red.png",
+        "style": "ninja",
+        "effect": "smoke",
+        "color": "red"
+      },
+      "ninja_smoke_blue": {
+        "file": "fx/ninja/smoke_blue.png",
+        "style": "ninja",
+        "effect": "smoke",
+        "color": "blue"
+      },
+      "ninja_smoke_gold": {
+        "file": "fx/ninja/smoke_gold.png",
+        "style": "ninja",
+        "effect": "smoke",
+        "color": "gold"
+      },
+      "ninja_smoke_green": {
+        "file": "fx/ninja/smoke_green.png",
+        "style": "ninja",
+        "effect": "smoke",
+        "color": "green"
+      },
+      "ninja_landing_burst": {
+        "file": "fx/ninja/landing_burst.png",
+        "style": "ninja",
+        "effect": "landing"
+      },
+      "ninja_speed_lines": {
+        "file": "fx/ninja/speed_lines.png",
+        "style": "ninja",
+        "effect": "speed_lines"
+      },
+      "magic_bolt_blue": {
+        "file": "fx/magic/bolt_blue.png",
+        "style": "magic",
+        "effect": "bolt",
+        "color": "blue"
+      },
+      "magic_bolt_purple": {
+        "file": "fx/magic/bolt_purple.png",
+        "style": "magic",
+        "effect": "bolt",
+        "color": "purple"
+      },
+      "magic_bolt_gold": {
+        "file": "fx/magic/bolt_gold.png",
+        "style": "magic",
+        "effect": "bolt",
+        "color": "gold"
+      },
+      "magic_bolt_green": {
+        "file": "fx/magic/bolt_green.png",
+        "style": "magic",
+        "effect": "bolt",
+        "color": "green"
+      },
+      "magic_impact_red": {
+        "file": "fx/magic/impact_red.png",
+        "style": "magic",
+        "effect": "impact",
+        "color": "red"
+      },
+      "magic_impact_blue": {
+        "file": "fx/magic/impact_blue.png",
+        "style": "magic",
+        "effect": "impact",
+        "color": "blue"
+      },
+      "magic_impact_gold": {
+        "file": "fx/magic/impact_gold.png",
+        "style": "magic",
+        "effect": "impact",
+        "color": "gold"
+      },
+      "magic_impact_green": {
+        "file": "fx/magic/impact_green.png",
+        "style": "magic",
+        "effect": "impact",
+        "color": "green"
+      },
+      "magic_rune_red": {
+        "file": "fx/magic/rune_red.png",
+        "style": "magic",
+        "effect": "rune",
+        "color": "red"
+      },
+      "magic_rune_blue": {
+        "file": "fx/magic/rune_blue.png",
+        "style": "magic",
+        "effect": "rune",
+        "color": "blue"
+      },
+      "magic_rune_gold": {
+        "file": "fx/magic/rune_gold.png",
+        "style": "magic",
+        "effect": "rune",
+        "color": "gold"
+      },
+      "magic_rune_green": {
+        "file": "fx/magic/rune_green.png",
+        "style": "magic",
+        "effect": "rune",
+        "color": "green"
+      },
+      "magic_materialize_red": {
+        "file": "fx/magic/materialize_red.png",
+        "style": "magic",
+        "effect": "materialize",
+        "color": "red"
+      },
+      "magic_materialize_blue": {
+        "file": "fx/magic/materialize_blue.png",
+        "style": "magic",
+        "effect": "materialize",
+        "color": "blue"
+      },
+      "magic_materialize_gold": {
+        "file": "fx/magic/materialize_gold.png",
+        "style": "magic",
+        "effect": "materialize",
+        "color": "gold"
+      },
+      "magic_materialize_green": {
+        "file": "fx/magic/materialize_green.png",
+        "style": "magic",
+        "effect": "materialize",
+        "color": "green"
+      },
+      "magic_appearance_red": {
+        "file": "fx/magic/appearance_red.png",
+        "style": "magic",
+        "effect": "appearance",
+        "color": "red"
+      },
+      "magic_appearance_blue": {
+        "file": "fx/magic/appearance_blue.png",
+        "style": "magic",
+        "effect": "appearance",
+        "color": "blue"
+      },
+      "magic_appearance_gold": {
+        "file": "fx/magic/appearance_gold.png",
+        "style": "magic",
+        "effect": "appearance",
+        "color": "gold"
+      },
+      "magic_appearance_green": {
+        "file": "fx/magic/appearance_green.png",
+        "style": "magic",
+        "effect": "appearance",
+        "color": "green"
+      },
+      "magic_trail_blue": {
+        "file": "fx/magic/trail_blue.png",
+        "style": "magic",
+        "effect": "trail",
+        "color": "blue"
+      },
+      "magic_trail_purple": {
+        "file": "fx/magic/trail_purple.png",
+        "style": "magic",
+        "effect": "trail",
+        "color": "purple"
+      },
+      "magic_trail_gold": {
+        "file": "fx/magic/trail_gold.png",
+        "style": "magic",
+        "effect": "trail",
+        "color": "gold"
+      },
+      "magic_trail_green": {
+        "file": "fx/magic/trail_green.png",
+        "style": "magic",
+        "effect": "trail",
+        "color": "green"
+      }
+    }
+  },
+  "wordFamilies": {
+    "at": [
+      {
+        "word": "cat",
+        "firstLetter": "c",
+        "hint": "hints/hint_cat.jpg"
+      },
+      {
+        "word": "bat",
+        "firstLetter": "b",
+        "hint": "hints/hint_bat.jpg"
+      },
+      {
+        "word": "hat",
+        "firstLetter": "h",
+        "hint": "hints/hint_hat.jpg"
+      },
+      {
+        "word": "mat",
+        "firstLetter": "m",
+        "hint": "hints/hint_mat.jpg"
+      },
+      {
+        "word": "rat",
+        "firstLetter": "r",
+        "hint": "hints/hint_rat.jpg"
+      }
+    ],
+    "ap": [
+      {
+        "word": "cap",
+        "firstLetter": "c",
+        "hint": "hints/hint_cap.jpg"
+      },
+      {
+        "word": "map",
+        "firstLetter": "m",
+        "hint": "hints/hint_map.jpg"
+      },
+      {
+        "word": "nap",
+        "firstLetter": "n",
+        "hint": "hints/hint_nap.jpg"
+      },
+      {
+        "word": "tap",
+        "firstLetter": "t",
+        "hint": "hints/hint_tap.jpg"
+      },
+      {
+        "word": "lap",
+        "firstLetter": "l",
+        "hint": "hints/hint_lap.jpg"
+      }
+    ],
+    "an": [
+      {
+        "word": "can",
+        "firstLetter": "c",
+        "hint": "hints/hint_can.jpg"
+      },
+      {
+        "word": "fan",
+        "firstLetter": "f",
+        "hint": "hints/hint_fan.jpg"
+      },
+      {
+        "word": "man",
+        "firstLetter": "m",
+        "hint": "hints/hint_man.jpg"
+      },
+      {
+        "word": "pan",
+        "firstLetter": "p",
+        "hint": "hints/hint_pan.jpg"
+      },
+      {
+        "word": "van",
+        "firstLetter": "v",
+        "hint": "hints/hint_van.jpg"
+      }
+    ],
+    "og": [
+      {
+        "word": "dog",
+        "firstLetter": "d",
+        "hint": "hints/hint_dog.jpg"
+      },
+      {
+        "word": "fog",
+        "firstLetter": "f",
+        "hint": "hints/hint_fog.jpg"
+      },
+      {
+        "word": "log",
+        "firstLetter": "l",
+        "hint": "hints/hint_log.jpg"
+      },
+      {
+        "word": "hog",
+        "firstLetter": "h",
+        "hint": "hints/hint_hog.jpg"
+      },
+      {
+        "word": "cog",
+        "firstLetter": "c",
+        "hint": "hints/hint_cog.jpg"
+      }
+    ],
+    "in": [
+      {
+        "word": "fin",
+        "firstLetter": "f",
+        "hint": "hints/hint_fin.jpg"
+      },
+      {
+        "word": "pin",
+        "firstLetter": "p",
+        "hint": "hints/hint_pin.jpg"
+      },
+      {
+        "word": "win",
+        "firstLetter": "w",
+        "hint": "hints/hint_win.jpg"
+      },
+      {
+        "word": "bin",
+        "firstLetter": "b",
+        "hint": "hints/hint_bin.jpg"
+      },
+      {
+        "word": "tin",
+        "firstLetter": "t",
+        "hint": "hints/hint_tin.jpg"
+      }
+    ],
+    "it": [
+      {
+        "word": "sit",
+        "firstLetter": "s",
+        "hint": "hints/hint_sit.jpg"
+      },
+      {
+        "word": "hit",
+        "firstLetter": "h",
+        "hint": "hints/hint_hit.jpg"
+      },
+      {
+        "word": "fit",
+        "firstLetter": "f",
+        "hint": "hints/hint_fit.jpg"
+      },
+      {
+        "word": "pit",
+        "firstLetter": "p",
+        "hint": "hints/hint_pit.jpg"
+      },
+      {
+        "word": "kit",
+        "firstLetter": "k",
+        "hint": "hints/hint_kit.jpg"
+      }
+    ],
+    "op": [
+      {
+        "word": "hop",
+        "firstLetter": "h",
+        "hint": "hints/hint_hop.jpg"
+      },
+      {
+        "word": "mop",
+        "firstLetter": "m",
+        "hint": "hints/hint_mop.jpg"
+      },
+      {
+        "word": "pop",
+        "firstLetter": "p",
+        "hint": "hints/hint_pop.jpg"
+      },
+      {
+        "word": "top",
+        "firstLetter": "t",
+        "hint": "hints/hint_top.jpg"
+      },
+      {
+        "word": "cop",
+        "firstLetter": "c",
+        "hint": "hints/hint_cop.jpg"
+      }
+    ],
+    "un": [
+      {
+        "word": "sun",
+        "firstLetter": "s",
+        "hint": "hints/hint_sun.jpg"
+      },
+      {
+        "word": "bun",
+        "firstLetter": "b",
+        "hint": "hints/hint_bun.jpg"
+      },
+      {
+        "word": "run",
+        "firstLetter": "r",
+        "hint": "hints/hint_run.jpg"
+      },
+      {
+        "word": "fun",
+        "firstLetter": "f",
+        "hint": "hints/hint_fun.jpg"
+      },
+      {
+        "word": "nun",
+        "firstLetter": "n",
+        "hint": "hints/hint_nun.jpg"
+      }
+    ]
+  }
+}
